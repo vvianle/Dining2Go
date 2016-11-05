@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_grilled_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.vivianle.diningtogo.SaladMenuActivityActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/salad_text"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Veggie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:text="Spinach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox17"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <CheckBox
+            android:text="Cabbage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox17"
+            android:layout_alignLeft="@+id/checkBox17"
+            android:layout_alignStart="@+id/checkBox17"
+            android:id="@+id/checkBox18" />
+
+        <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox18"
+            android:layout_alignLeft="@+id/checkBox18"
+            android:layout_alignStart="@+id/checkBox18"
+            android:id="@+id/checkBox19" />
+
+        <TextView
+            android:text="Meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox19"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginTop="14dp"
+            android:id="@+id/order" />
+
+        <CheckBox
+            android:text="Chicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order"
+            android:layout_alignLeft="@+id/checkBox19"
+            android:layout_alignStart="@+id/checkBox19"
+            android:id="@+id/checkBox20" />
+
+        <CheckBox
+            android:text="Shrimp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox21"
+            android:layout_alignLeft="@+id/checkBox21"
+            android:layout_alignStart="@+id/checkBox21"
+            android:id="@+id/checkBox22" />
+
+        <CheckBox
+            android:text="American"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox24"
+            android:layout_below="@+id/checkBox23"
+            android:layout_alignLeft="@+id/checkBox23"
+            android:layout_alignStart="@+id/checkBox23" />
+
+        <Button
+            android:text="Add to Cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginTop="154dp"
+            android:layout_below="@+id/checkBox27"
+            android:layout_centerHorizontal="true" />
+
+        <CheckBox
+            android:text="Italian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox29"
+            android:layout_alignLeft="@+id/checkBox29"
+            android:layout_alignStart="@+id/checkBox29"
+            android:id="@+id/checkBox30" />
+
+        <CheckBox
+            android:text="Honey Mustard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox30"
+            android:layout_alignLeft="@+id/checkBox30"
+            android:layout_alignStart="@+id/checkBox30"
+            android:id="@+id/checkBox31" />
+
+        <CheckBox
+            android:text="Salmon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox21"
+            android:layout_below="@+id/checkBox20"
+            android:layout_alignLeft="@+id/checkBox20"
+            android:layout_alignStart="@+id/checkBox20" />
+
+        <CheckBox
+            android:text="Cheddar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox27"
+            android:layout_below="@+id/checkBox24"
+            android:layout_alignLeft="@+id/checkBox24"
+            android:layout_alignStart="@+id/checkBox24" />
+
+        <CheckBox
+            android:text="Ceasar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox29"
+            android:layout_alignBaseline="@+id/checkBox20"
+            android:layout_alignBottom="@+id/checkBox20"
+            android:layout_alignLeft="@+id/checkBox27"
+            android:layout_alignStart="@+id/checkBox27" />
+
+        <CheckBox
+            android:text="Mozzarella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox23"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_above="@+id/checkBox18"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+
+        <TextView
+            android:text="Cheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_above="@+id/checkBox29"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+        <TextView
+            android:text="Dressing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_above="@+id/checkBox23"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+    </RelativeLayout>
+</ScrollView>
